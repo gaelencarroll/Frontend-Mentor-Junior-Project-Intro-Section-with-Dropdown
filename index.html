@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <section class="nav-bar">
+    <figure class="logo"></figure>
+    <section class="nav-bar-no-logo">
+    <ul class="nav-list">
+      <li class="nav-item features">
+        <section class="nav-item-with-arrow-section features">
+          <p class="nav-item-label features">Features</p>
+          <figure class="arrow features"></figure>
+        </section>
+        <section class="dropdown features">
+          <ul class="dropdown-list-container">
+            <section class="dropdown-section todo-list">
+              <figure class="dropdown-icon features todo-list"></figure>
+              <li class="dropdown-item features todo-list">Todo List</li>
+            </section>
+            <section class="dropdown-section calendar">
+              <figure class="dropdown-icon features calendar"></figure>
+              <li class="dropdown-item features calendar">Calendar</li>
+            </section>
+            <section class="dropdown-section reminders">
+              <figure class="dropdown-icon features reminders"></figure>
+              <li class="dropdown-item features reminders">Reminders</li>
+            </section>
+            <section class="dropdown-section planning">
+              <figure class="dropdown-icon features planning"></figure>
+              <li class="dropdown-item features planning">Planning</li>
+            </section>
+          </ul>
+        </section>
+      </li>
+      <li class="nav-item company">
+        <section class="nav-item-with-arrow-section company">
+          <p class="nav-item-label company">Company</p>
+          <figure class="arrow company"></figure>
+        </section>
+        <section class="dropdown company">
+          <ul class="dropdown-company-container"> 
+            <li class="dropdown-item company history">History</li>
+            <li class="dropdown-item company our-team">Our Team</li>
+            <li class="dropdown-item company blog">Blog</li>
+          </ul>
+        </section>
+      </li>
+      <li class="nav-item careers">Careers</li>
+      <li class="nav-item about">About</li>
+    </ul>
+    <ul class="user-nav-list">
+      <li class="nav-item login">Login</li>
+      <li class="nav-item register">Register</li>
+    </ul>
+    </section>
+    <figure class="mobile-nav-bar-icon"></figure>
+  </section>
+
+
+  <section class="main-page-section">
+    <section class="left-side-page-info">
+      <section class="page-info">
+        <h1 class="title">Make remote work</h1>
+
+        <p class="descrip">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+
+        <button class="button">Learn more</button> 
+      </section>
+      <section class="partner-logos-sec">
+        <figure class="partner-logo databiz"></figure>
+        <figure class="partner-logo audio-phile"></figure>
+        <figure class="partner-logo meet"></figure>
+        <figure class="partner-logo maker"></figure>
+      </section>
+    </section>
+    <figure class="img-computer"></figure>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gaelen</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
